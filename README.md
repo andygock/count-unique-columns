@@ -11,3 +11,7 @@ Start development server
 Build production static files to `dist/`
 
     yarn build
+
+## Demo
+
+<https://count-unique-columns.netlify.app/>
