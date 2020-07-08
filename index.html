@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Count unique columns in tab delimited text</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css"
+      integrity="sha256-oSsWW/ca1ll8OVu2t4EKkyb9lmH0Pkd8CXKXnYP4QvA="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Count unique columns in tab delimited text</h1>
+        <div class="columns">
+          <div class="column">
+            <h2>Input</h2>
+            <p>Enter tab delimited data:</p>
+            <textarea id="input" class="textarea is-family-monospace" rows="20">
+            </textarea>
+          </div>
+          <div class="column">
+            <h2>Options</h2>
+            <div class="columns">
+              <div class="column">
+                <p>Select unique columns:</p>
+                <div id="input-unique"></div>
+              </div>
+            </div>
+            <h2>Output</h2>
+            <div id="output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
