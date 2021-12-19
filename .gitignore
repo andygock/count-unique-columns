@@ -7,3 +7,4 @@ sample/
 .cache
 package-lock.json
 yarn-error.log
+/.parcel-cache

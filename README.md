@@ -1,16 +1,24 @@
 # Count unique columns in tab delimited text
 
+Install [pnpm](https://pnpm.io/)
+
+    npm install -g pnpm
+
 Install dependencies
 
-    yarn
+    pnpm install
 
 Start development server
 
-    yarn start
+    pnpm start
 
 Build production static files to `dist/`
 
-    yarn build
+    pnpm build
+
+If required, use the following Netlify build command
+
+    pnpm build || ( npm install pnpm && pnpm build )
 
 ## Demo
 
