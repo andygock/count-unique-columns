@@ -10,7 +10,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "parcel": "^2.0.0"
+    "parcel": "^2.7.0"
   },
   "keywords": []
 }
