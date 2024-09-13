@@ -22,4 +22,4 @@ If required, use the following Netlify build command
 
 ## Demo
 
-<https://count-unique-columns.netlify.app/>
+<https://andygock.github.io/count-unique-columns/>
